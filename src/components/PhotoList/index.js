@@ -108,7 +108,6 @@ const PhotoList = ({ category }) => {
                 {currentPhotos.map((image, i) => (
                     <img
 
-                    
                         src={require(`../../assets/small/${category}/${i}.jpg`)}
                         alt={image.name}
                         className="img-thumbnail mx-1"
